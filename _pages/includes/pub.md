@@ -18,7 +18,7 @@ Miao Wei, Shu Yang, Fangmin Chen, Xing Mei †
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/gqsa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL XX</div><img src='images/gqsa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GQSA: Group Quantization and Sparsity for Accelerating Large Language Model Inference](https://arxiv.org/pdf/2412.17560) \\
