@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">S2O sparse attention overview</title>
+  <desc id="desc">Sparse attention blocks reordered by online permutation and early stopping.</desc>
+  <rect width="800" height="450" fill="#f9f7fd"/>
+  <rect x="76" y="66" width="648" height="318" rx="18" fill="#ffffff" stroke="#ded6ef"/>
+  <g transform="translate(126 118)">
+    <g fill="#e9e1f8">
+      <rect x="0" y="0" width="44" height="44" rx="6"/>
+      <rect x="54" y="0" width="44" height="44" rx="6"/>
+      <rect x="108" y="0" width="44" height="44" rx="6"/>
+      <rect x="162" y="0" width="44" height="44" rx="6"/>
+      <rect x="0" y="54" width="44" height="44" rx="6"/>
+      <rect x="54" y="54" width="44" height="44" rx="6"/>
+      <rect x="108" y="54" width="44" height="44" rx="6"/>
+      <rect x="162" y="54" width="44" height="44" rx="6"/>
+      <rect x="0" y="108" width="44" height="44" rx="6"/>
+      <rect x="54" y="108" width="44" height="44" rx="6"/>
+      <rect x="108" y="108" width="44" height="44" rx="6"/>
+      <rect x="162" y="108" width="44" height="44" rx="6"/>
+    </g>
+    <g fill="#5a34a6">
+      <rect x="0" y="0" width="44" height="44" rx="6"/>
+      <rect x="54" y="54" width="44" height="44" rx="6"/>
+      <rect x="108" y="54" width="44" height="44" rx="6"/>
+      <rect x="162" y="108" width="44" height="44" rx="6"/>
+    </g>
+  </g>
+  <path d="M378 214 H612" stroke="#e0503e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M578 180 L616 214 L578 248" fill="none" stroke="#e0503e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="116" y="346" fill="#39235f" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700">S2O</text>
+  <text x="210" y="346" fill="#6d5d86" font-family="Helvetica, Arial, sans-serif" font-size="22">online permutation and early stopping</text>
+</svg>

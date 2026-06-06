@@ -1,6 +1,12 @@
 # 🔥 News
-- *2024.12*: 🎉 One paper is accepted by AAAI 2025
-- *2023.07*: 🎉 One papers is accepted by ACM-MM 2023
-- *2022.05*: 🎉 One papers is accepted by CVPR 2022
-- *2022.03*: 🎉 Won the Championship 🏆 at the NTIRE 2022 Challenge on Efficient Super-Resolution
-- *2021.05*: I join ByteDance <img src='./images/tiktok.png' style='width: 6em;'> as a Multimedia Algorithm Engineer in Shanghai, China!
+- *2026.05*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2605.01725">MotionCache</a> is accepted by <span class="news-venue">ICML 2026</span>.
+- *2026.04*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2508.12094">TCEC</a> is accepted by <span class="news-venue">ICML 2026 Spotlight + Oral, Top 0.7%</span>.
+- *2026.04*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2602.22575">S2O</a> is accepted by <span class="news-venue">ACL 2026 Oral</span>.
+- *2026.03*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2603.28713">DreamLite</a> is accepted by <span class="news-venue">ECCV 2026</span>; it is a SOTA on-device unified image generation and editing model.
+- *2025.12*: 🎉 <a class="paper-title" href="https://aclanthology.org/2025.ijcnlp-long.10/">GQSA</a> is published at <span class="news-venue">IJCNLP-AACL 2025</span> and receives <span class="news-venue">Best Paper Honorable Mention</span>.
+- *2025.08*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2508.21091">ERTACache</a> is accepted by <span class="news-venue">ICLR 2026</span>.
+- *2024.12*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2408.08554">ABQ-LLM</a> is accepted by <span class="news-venue">AAAI 2025</span>.
+- *2023.07*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2308.02794">UOE</a> is accepted by <span class="news-venue">ACM-MM 2023</span>.
+- *2022.05*: 🎉 <a class="paper-title" href="https://arxiv.org/abs/2205.07514">RLFN</a> is accepted by <span class="news-venue">CVPRW 2022</span>.
+- *2022.03*: 🎉 <a class="paper-title" href="https://github.com/bytedance/RLFN">RLFN</a> won the Championship 🏆 at <span class="news-venue">NTIRE 2022 Efficient Super-Resolution Challenge</span>.
+- *2021.05*: I join ByteDance <img src='./images/tiktok.png' style='width: 6em;'> as a AI Infra Engineer in Shanghai, China!

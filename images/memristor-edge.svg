@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Memristor edge detection overview</title>
+  <desc id="desc">A chip and edge map representing stochastic edge detection.</desc>
+  <rect width="800" height="450" fill="#f7f9fb"/>
+  <rect x="78" y="72" width="644" height="306" rx="18" fill="#ffffff" stroke="#dce4eb"/>
+  <rect x="144" y="126" width="184" height="184" rx="18" fill="#233142"/>
+  <g stroke="#7dd3c7" stroke-width="8">
+    <path d="M118 158 H144"/>
+    <path d="M118 198 H144"/>
+    <path d="M118 238 H144"/>
+    <path d="M118 278 H144"/>
+    <path d="M328 158 H354"/>
+    <path d="M328 198 H354"/>
+    <path d="M328 238 H354"/>
+    <path d="M328 278 H354"/>
+  </g>
+  <path d="M182 268 L214 184 L242 238 L282 158" fill="none" stroke="#7dd3c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="430" y="128" width="196" height="184" rx="12" fill="#f0f4f7" stroke="#9db0bf" stroke-width="3"/>
+  <path d="M468 274 C492 198 544 246 570 164" fill="none" stroke="#e34d4d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M456 154 L616 286" stroke="#233142" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 13"/>
+  <text x="132" y="352" fill="#263543" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Memristor Edge Detection</text>
+</svg>

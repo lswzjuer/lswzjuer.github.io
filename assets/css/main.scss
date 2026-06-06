@@ -43,9 +43,10 @@
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1.5em;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     
@@ -55,30 +56,50 @@
         display: flex;
         width: 100%;
         order: 2;
-        img {
+        > div {
+            position: relative;
+            width: 100%;
             max-width: 400px;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 16 / 9;
             box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+            border-radius: 6px;
+            background: #f7f8fb;
+            object-fit: contain;
         }
     }
     
     .paper-box-text{
+        flex: 1 1 0;
         max-width: 100%;
         order: 1;
+
+        p {
+            margin-bottom: 0.7em;
+        }
+
+        ul {
+            margin-top: 0.2em;
+            margin-bottom: 0;
+        }
     }
     
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+            flex: 0 0 36%;
+            min-width: 180px;
+            max-width: 36%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+            padding-left: 0;
+            max-width: calc(64% - 1.5em);
             order: 2;
         }
 
@@ -106,4 +127,74 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    line-height: 1.8;
+    border-radius: 0 4px 4px 0;
+    z-index: 2;
+}
+
+.highlight-red {
+    color: #c01818;
+    font-weight: 700;
+}
+
+.intro-statement {
+    position: relative;
+    margin: 0 0 1.35rem 0;
+    padding: 0.85rem 0 0.9rem 1.15rem;
+    border-left: 4px solid #2563eb;
+    background: linear-gradient(90deg, rgba(37, 99, 235, 0.07), rgba(37, 99, 235, 0));
+}
+
+.intro-statement__label {
+    margin-bottom: 0.35rem;
+    color: #2563eb;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.intro-statement p {
+    margin: 0;
+    max-width: 46rem;
+    color: #0f172a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1.45rem;
+    font-weight: 750;
+    line-height: 1.25;
+}
+
+.intro-statement span {
+    color: #111;
+    font-weight: 800;
+}
+
+@include breakpoint($medium) {
+    .intro-statement {
+        padding-left: 1.35rem;
+    }
+
+    .intro-statement p {
+        font-size: 1.85rem;
+    }
+}
+
+.paper-title {
+    color: #111;
+    font-weight: 700;
+}
+
+.page__content a.paper-title,
+a.paper-title {
+    color: #111;
+    font-weight: 700;
+}
+
+.page__content a.paper-title:hover,
+a.paper-title:hover {
+    color: #111;
+}
+
+.news-venue {
+    color: #c01818;
+    font-weight: 700;
 }

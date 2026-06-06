@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Songwei Liu(刘松伟)"
-description              : "High-Performance Computing (HPC) expert in ByteDance."
+description              : "MLSys Optimization Expert."
+url                      : "https://lswzjuer.github.io"
 repository               : "lswzjuer/lswzjuer.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +24,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "Songwei Liu (刘松伟)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "ByteDance"
+  bio              : "MLSys Optimization Expert"
   location         : "HangZhou China"
   employer         :
   pubmed           : 

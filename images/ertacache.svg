@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">ERTACache diffusion cache overview</title>
+  <desc id="desc">A diffusion cache diagram with rectification and timestep adjustment.</desc>
+  <rect width="800" height="450" fill="#f8fbff"/>
+  <rect x="78" y="72" width="644" height="306" rx="18" fill="#ffffff" stroke="#d9e6f7"/>
+  <g fill="none" stroke-width="9" stroke-linecap="round">
+    <path d="M132 292 C200 206 276 250 336 184" stroke="#3178c6"/>
+    <path d="M336 184 C430 86 496 232 588 148" stroke="#8bb8e8"/>
+    <path d="M588 148 C632 108 664 128 692 102" stroke="#3178c6"/>
+  </g>
+  <g>
+    <rect x="166" y="124" width="116" height="72" rx="12" fill="#e6f0fb" stroke="#3178c6" stroke-width="3"/>
+    <rect x="342" y="238" width="116" height="72" rx="12" fill="#fff2e8" stroke="#de6d1f" stroke-width="3"/>
+    <rect x="520" y="210" width="116" height="72" rx="12" fill="#eaf7ef" stroke="#2a9365" stroke-width="3"/>
+  </g>
+  <path d="M400 238 L400 198 L444 198" fill="none" stroke="#de6d1f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M568 210 L568 170 L612 170" fill="none" stroke="#2a9365" stroke-width="8" stroke-linecap="round"/>
+  <text x="106" y="120" fill="#17385c" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">ERTACache</text>
+  <text x="106" y="350" fill="#566b82" font-family="Helvetica, Arial, sans-serif" font-size="21">error rectification and timestep adjustment</text>
+</svg>
