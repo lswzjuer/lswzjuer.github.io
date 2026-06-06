@@ -1,16 +1,35 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+<nav class="masthead site-nav" aria-label="Primary">
+  <div class="site-nav__inner">
+    <a class="site-nav__brand" href="/#about" target="_self">
+      <span>Songwei Liu</span>
+      <img src="{{ '/images/android-chrome-192x192.png' | relative_url }}" alt="" aria-hidden="true">
+    </a>
+
+    <button class="site-nav__toggle" type="button" aria-controls="site-nav-menu" aria-expanded="false" data-nav-toggle>
+      <span class="sr-only">Toggle navigation menu</span>
+      <span class="site-nav__toggle-line"></span>
+      <span class="site-nav__toggle-line"></span>
+      <span class="site-nav__toggle-line"></span>
+    </button>
+
+    <div class="site-nav__links" id="site-nav-menu" data-nav-menu>
+      {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a>
+      {% endfor %}
     </div>
   </div>
-</div>
+</nav>
+
+{% if page.homepage %}
+<nav class="section-rail" aria-label="Homepage sections">
+  <a href="#about" target="_self" title="Bio" data-section-indicator="about"><span class="sr-only">Bio</span></a>
+  <a href="#research-direction" target="_self" title="Research" data-section-indicator="research-direction"><span class="sr-only">Research</span></a>
+  <a href="#news" target="_self" title="News" data-section-indicator="news"><span class="sr-only">News</span></a>
+  <a href="#publications" target="_self" title="Publications" data-section-indicator="publications"><span class="sr-only">Publications</span></a>
+  <a href="#projects" target="_self" title="Projects" data-section-indicator="projects"><span class="sr-only">Projects</span></a>
+  <a href="#skills" target="_self" title="Skills" data-section-indicator="skills"><span class="sr-only">Skills</span></a>
+  <a href="#background" target="_self" title="Background" data-section-indicator="background"><span class="sr-only">Background</span></a>
+  <a href="#talks" target="_self" title="Talks" data-section-indicator="talks"><span class="sr-only">Talks</span></a>
+  <a href="#contact" target="_self" title="Contact" data-section-indicator="contact"><span class="sr-only">Contact</span></a>
+</nav>
+{% endif %}
